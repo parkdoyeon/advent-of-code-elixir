@@ -24,7 +24,7 @@ defmodule DayOne do
   end
 end
 
-"assets/day1.txt"
+"../inputs/day1.txt"
 |> DayOne.prepare()
 |> DayOne.find_dups()
 |> IO.inspect()
