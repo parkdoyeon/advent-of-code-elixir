@@ -1,4 +1,4 @@
-defmodule DaySix do
+defmodule AdvantOfCodeElixir.DaySix do
   defp prepare_locs(path) do
     Path.expand(path)
     |> File.read!()
@@ -76,7 +76,7 @@ defmodule DaySix do
       {^max_x, _} -> true
       {_, ^min_y} -> true
       {_, ^max_y} -> true
-      _ -> falsex2
+      _ -> false
     end
   end
 
@@ -93,7 +93,7 @@ defmodule DaySix do
   end
 
   def part2() do
-    "./inputs/day6.txt"
+    "inputs/day6.txt"
     |> prepare_locs()
     |> prepare_coords()
     |> calculate_distance()
@@ -101,6 +101,3 @@ defmodule DaySix do
     |> length()
   end
 end
-
-DaySix.part1()
-|> IO.inspect()

@@ -1,4 +1,4 @@
-defmodule DayOne do
+defmodule AdvantOfCodeElixir.DayOne do
   def prepare(path) do
     Path.expand(path)
     |> File.read!()
@@ -22,9 +22,10 @@ defmodule DayOne do
       if sum in adds, do: {:halt, sum}, else: {:cont, [sum | adds]}
     end)
   end
-end
 
-"./inputs/day1.txt"
-|> DayOne.prepare()
-|> DayOne.find_dups()
-|> IO.inspect()
+  def part_one() do
+    "inputs/day1.txt"
+    |> prepare()
+    |> find_dups()
+  end
+end
