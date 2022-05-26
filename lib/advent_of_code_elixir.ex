@@ -1,6 +1,6 @@
-defmodule AdvantOfCodeElixir do
+defmodule AdventOfCodeElixir do
   @moduledoc """
-  Documentation for `AdvantOfCodeElixir`.
+  Documentation for `AdventOfCodeElixir`.
   """
 
   @doc """
@@ -8,7 +8,7 @@ defmodule AdvantOfCodeElixir do
 
   ## Examples
 
-      iex> AdvantOfCodeElixir.hello()
+      iex> AdventOfCodeElixir.hello()
       :world
 
   """

@@ -20,7 +20,7 @@ erl_crash.dump
 *.ez
 /.vscode
 # Ignore package tarball (built via "mix hex.build").
-advant_of_code_elixir-*.tar
+advent_of_code_elixir-*.tar
 
 # Temporary files, for example, from tests.
 /tmp/

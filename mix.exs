@@ -1,9 +1,9 @@
-defmodule AdvantOfCodeElixir.MixProject do
+defmodule AdventOfCodeElixir.MixProject do
   use Mix.Project
 
   def project do
     [
-      app: :advant_of_code_elixir,
+      app: :advent_of_code_elixir,
       version: "0.1.0",
       elixir: "~> 1.13",
       start_permanent: Mix.env() == :prod,
@@ -14,7 +14,6 @@ defmodule AdvantOfCodeElixir.MixProject do
   # Run "mix help compile.app" to learn about applications.
   def application do
     [
-      # mod: {AdvantOfCodeElixir.Application, []},
       extra_applications: [:logger]
     ]
   end

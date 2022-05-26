@@ -1,4 +1,4 @@
-defmodule AdvantOfCodeElixir.DayOne do
+defmodule AdventOfCodeElixir.DayOne do
   def prepare(path) do
     Path.expand(path)
     |> File.read!()

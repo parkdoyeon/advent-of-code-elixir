@@ -1,4 +1,4 @@
-defmodule AdvantOfCodeElixir.DaySix do
+defmodule AdventOfCodeElixir.DaySix do
   defp prepare_locs(path) do
     Path.expand(path)
     |> File.read!()
